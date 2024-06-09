@@ -35,8 +35,9 @@
 
 .cover-logo {
   background: url(/rw.png) center no-repeat;
-  height: 100%;
-  width: 100%;
+  background-size: contain;
+  height: 200px; /* Ajuste da altura */
+  width: 200px;  /* Ajuste da largura */
   position: absolute;
   top: 50%;
   left: 50%;
