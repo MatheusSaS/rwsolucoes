@@ -22,7 +22,7 @@ export default function Home() {
       {show ? (
         <Suspense fallback={<Loading />}>
           <Hero />
-          <div id="sobre" className="flex items-center justify-center w-full h-screen mt-96 md:mt-52">
+          <div id="sobre" className="flex items-center justify-center w-full h-screen mt-32 md:mt-52">
             <div className="flex w-full h-full">
               {/* Imagem */}
               <div className="flex-none w-1/2 h-full">
@@ -177,10 +177,10 @@ export default function Home() {
                   <h2 className="text-3xl font-bold text-gray-800 lg:text-5xl">Entre em contato</h2>
               </div>
               <div className="flex flex-wrap -mx-4">
-                <div className="w-full lg:w-1/2 px-4 order-last lg:order-first">
+                <div className="w-full lg:w-1/2 order-last lg:order-first">
                   <img className="h-full w-full max-w-md" src="/empresa.jpeg" alt="" data-config-id="auto-img-3-4"/>
                 </div>
-                <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
+                <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
 
                   <div className="max-w-md py-6 lg:ml-auto">
                     <div className="flex mb-12 items-center">
