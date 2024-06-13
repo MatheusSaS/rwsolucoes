@@ -26,7 +26,7 @@ export default function Home() {
             <div className="flex w-full h-full">
               {/* Imagem */}
               <div className="flex-none w-1/2 h-full">
-                <img src="/empresa.jpeg" alt="Descrição da imagem" className="object-cover w-full h-full" />
+                <video src="/solda.mp4" className="object-cover w-full h-full "  preload="auto" muted loop  autoPlay />
               </div>
 
               {/* Texto */}
@@ -152,33 +152,39 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div id="frase" className="mx-auto w-full -mt-1">
-            <section className="min-h-96 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden bg-black py-16 shadow-lg md:py-20 xl:py-48">  
-              <div className="relative flex flex-col items-center p-4 sm:max-w-3xl">
-                <p className="mb-4 text-center justify-center text-lg text-white sm:text-xl md:mb-8">
-                  "Busco realizar os trabalhos com máxima rapidez sem perder a qualidade. <br/>
-                  Para mim segurança vem sempre em primeiro lugar. Desde a abertura da empresa
-                  sempre visei trabalhar com dedicação e tentar realizar os trabalhos com excelência.
-                  Aminha maior realização é ver que ao final da obra realizei um trabalho com
-                  qualidade e que o mesmo trouxe a satisfação total de meus Clientes."
-                </p>
-                <p className="mb-4 text-center justify-center text-lg text-white sm:text-xl md:mb-8">
-                "Coloque seu coração, mente e alma até mesmo nas menores coisas que você fizer. Esse é o segredo para o sucesso." Guilherme Ávila
-                </p>
-                <p className="mb-4 text-center justify-center text-lg text-white sm:text-xl md:mb-8 font-bold">
-                CEO - ROGÉRIO OLIVEIRA
-                </p>
+          <div id="frase" className="items-center justify-center w-full">
+            <div className="relative">
+            
+              <video src="/hero-home.mp4" className="object-cover w-full h-[600px]"  preload="auto" muted loop  autoPlay />
+              
+              <div className="absolute inset-0 bg-black opacity-70"></div>
+              <div className="absolute inset-0 justify-center flex flex-col items-center mt-40 mx-5 mb-10 sm:mb-0">
+                <div className="relative flex flex-col items-center p-4 sm:max-w-3xl">
+                  <p className="mb-4 text-center justify-center text-lg text-white sm:text-xl md:mb-8">
+                    "Busco realizar os trabalhos com máxima rapidez sem perder a qualidade. <br/>
+                    Para mim segurança vem sempre em primeiro lugar. Desde a abertura da empresa
+                    sempre visei trabalhar com dedicação e tentar realizar os trabalhos com excelência.
+                    Aminha maior realização é ver que ao final da obra realizei um trabalho com
+                    qualidade e que o mesmo trouxe a satisfação total de meus Clientes."
+                  </p>
+                  <p className="mb-4 text-center justify-center text-lg text-white sm:text-xl md:mb-8">
+                  "Coloque seu coração, mente e alma até mesmo nas menores coisas que você fizer. Esse é o segredo para o sucesso." Guilherme Ávila
+                  </p>
+                  <p className="mb-4 text-center justify-center text-lg text-white sm:text-xl md:mb-8 font-bold">
+                  CEO - ROGÉRIO OLIVEIRA
+                  </p>
+                </div>
               </div>
-            </section>
+            </div>
           </div>
           <div id="contato" className="relative container px-4 mx-auto h-screen flex justify-center items-center bg-white">
-            <div className="max-w-md lg:max-w-5xl mx-auto mt-72 sm:mt-0">
+            <div className="max-w-md lg:max-w-5xl mx-auto mt-[400px] sm:mt-0">
               <div className="flex flex-col items-center text-center gap-2 w-full mb-10 mt-5">
                   <h2 className="text-3xl font-bold text-gray-800 lg:text-5xl">Entre em contato</h2>
               </div>
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full lg:w-1/2 order-last lg:order-first">
-                  <img className="h-full w-full max-w-md" src="/empresa.jpeg" alt="" data-config-id="auto-img-3-4"/>
+                  <img className="h-full w-full max-w-md" src="./contato.png" alt="" data-config-id="auto-img-3-4"/>
                 </div>
                 <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
 
