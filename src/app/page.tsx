@@ -26,7 +26,7 @@ export default function Home() {
             <div className="flex w-full h-full">
               {/* Imagem */}
               <div className="flex-none w-1/2 h-full">
-                <video src="/solda.mp4" className="object-cover w-full h-full "  preload="auto" muted loop  autoPlay />
+                <video src="/videoplayback.mp4" className="object-cover w-full h-full "  preload="auto" muted loop  autoPlay />
               </div>
 
               {/* Texto */}
